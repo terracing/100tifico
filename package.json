@@ -1,0 +1,25 @@
+{
+  "name": "100tifico",
+  "version": "1.0.0",
+  "description": "The Rick and Morty library ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terracing/100tifico.git"
+  },
+  "keywords": [
+    "javascript",
+    "rick",
+    "sanchez",
+    "morty"
+  ],
+  "author": "Omar Terrazas",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/terracing/100tifico/issues"
+  },
+  "homepage": "https://github.com/terracing/100tifico#readme"
+}
