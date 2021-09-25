@@ -18,4 +18,4 @@ const Character = () => {
     return view;
 };
 
-export default Header;   
+export default Character;   

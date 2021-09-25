@@ -11,23 +11,19 @@ module.exports = {
         extensions: ['.js'],
     },
     module: {
-        rules: [
-            {
-                test: /\.js?$/,
-                exclude: /node_modules/,
-                use: {
-                    loader: 'babel-loader'
-                }
+        rules: [{
+            test: /\.js?$/,
+            exclude: /node_modules/,
+            use: {
+                loader: 'babel-loader'
             }
-        ]
+        }]
     },
     plugins: [
-        new HtmlWebpackPlugin([
-            {
-                inject: true,
-                template: './public/index.html',
-                filename: './index.html'
-            }
-        ])
+        new HtmlWebpackPlugin({
+            inject: true,
+            template: './public/index.html',
+            filename: './index.html'
+        })
     ]
 }

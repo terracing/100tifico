@@ -1,1 +1,3 @@
-console.log('Wubba Lubba Dub Dub!')
+import router from './routes';
+
+window.addEventListener('load', router);
